@@ -34,6 +34,7 @@ body{
       .line-1,.line-3{
           transition: all 0.5s ease-in-out 0s;
       }
+      
 
 
 .navbar{
@@ -167,6 +168,15 @@ body{
     width: 64.94px;
     height: 64.94px;
   }
+  .box1{
+    order:-1;
+  }
+  .box2{
+    order: -2;
+}
+.box3{
+    order: -3;
+}
 }
 
 /* Responsive for tablet */
@@ -182,25 +192,30 @@ body{
       height: 337px;
     }
 
+    .pic{
+      order:-1;
+    }
+    .main{
+      display: flex;
+      flex-direction: column;
+    }
 }
 
 
 /* Second Page (Myself) */
 
 .home{
-
   width: 100%;
   height: 600px;
   background-color: rgb(43, 7, 45);
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .main{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .content{
   font-size: 20px;
@@ -214,11 +229,13 @@ body{
 }
 .pic{
   margin-left: 29px;
+
 }
 
 .pic img{
   width: 250px;
   height: 350px;
+  border-radius: 10% 20%;
 }
 .btn{
   margin: 6px;
@@ -229,6 +246,7 @@ body{
    border-radius: 15%;
    color: #000;
    padding: 5px;
+   color: aliceblue;
 }
 .btn:hover{
   box-shadow: 2px 2px 3px 3px blue;

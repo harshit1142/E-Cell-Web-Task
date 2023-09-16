@@ -1,0 +1,32 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar Section */
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    box-shadow: 1px 1px 3px 4px rgba(198, 195, 195, 0.908);
+}
+.nav-box{
+    display: flex;
+    flex-flow: row;
+    justify-content:end;
+    align-content: center;
+    padding-right: 30px;
+}
+.nav-box ul{
+    list-style: none;
+    display: flex;
+}
+.nav-box ul li{
+    padding-left: 33px;
+}
+.nav-box ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}

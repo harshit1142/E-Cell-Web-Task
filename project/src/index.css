@@ -183,3 +183,55 @@ body{
     }
 
 }
+
+
+/* Second Page (Myself) */
+
+.home{
+
+  width: 100%;
+  height: 600px;
+  background-color: rgb(43, 7, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.content{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info{
+  color: rgb(239, 247, 128);
+}
+.pic{
+  margin-left: 29px;
+}
+
+.pic img{
+  width: 250px;
+  height: 350px;
+}
+.btn{
+  margin: 6px;
+  font-size: 19px;
+  text-decoration: none;
+   background-color: rgb(18, 200, 236);
+   opacity: 0.4;
+   border-radius: 15%;
+   color: #000;
+   padding: 5px;
+}
+.btn:hover{
+  box-shadow: 2px 2px 3px 3px blue;
+  opacity: 1;
+  
+}

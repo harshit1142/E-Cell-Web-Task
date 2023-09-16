@@ -1,9 +1,8 @@
 import React from 'react'
 import img2 from "../Images/E-Cell.png"
-import Box from '../components/Box';
+import Square from '../components/Square'
 
 export default function Grid() {
-    const boxes=[1,2,3,4,5,6,7,8,9];
   return (
     <>
         <div className="grid">
@@ -14,9 +13,7 @@ export default function Grid() {
                    <img src={img2} alt="E-Cell" />
                 </div>
                 <div className="box box3">
-                   {boxes.map(ele=>
-                       <Box />
-                   )}
+                  <Square />
                 </div>
             </div>
         </div>

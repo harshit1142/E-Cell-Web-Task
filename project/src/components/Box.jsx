@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function Box() {
+export default function Box({ele}) {
     const [color,whichColor]=useState("#00407A");
     function reverse()
     {
@@ -9,7 +9,7 @@ export default function Box() {
     }
 
   return (
-    <div className='smallBox' onClick={reverse} style={{background:color}}>
+    <div className='smallBox' onClick={reverse}  style={{background:color}}>
         
     </div>
   )

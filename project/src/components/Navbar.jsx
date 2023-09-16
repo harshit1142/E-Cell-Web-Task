@@ -24,9 +24,9 @@ export default function Navbar() {
         </div>
         <div className={open?"nav-box active":"nav-box" } id="nav-box">
               <ul>
-                <li> <a href="/" target="_blank">Home</a></li>
-                <li> <a href="/" target="_blank">Grid</a></li>
-                <li> <a href="/" target="_blank">LinkedIn</a></li>
+                <li> <a href="/" >Home</a></li>
+                <li> <a href="/grid" >Grid</a></li>
+                <li> <a href="https://www.linkedin.com/in/harshit-pandey-312b78245/" >LinkedIn</a></li>
               </ul>
         </div>
     </div>

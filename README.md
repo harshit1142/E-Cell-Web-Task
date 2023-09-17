@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# ECell - Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+E-Cell Web Team @MNNIT Allahabad Task assigned.
+
+<h1>Tech Stack</h1>
+<p>-->HTML  CSS  JavaScript</p>
+<p>-->React</p>
+
 
 ## Available Scripts
 
